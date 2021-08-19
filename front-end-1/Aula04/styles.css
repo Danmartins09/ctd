@@ -1,0 +1,25 @@
+.title{
+   display: block;
+   padding: 2rem;
+   background: blue;
+   margin-bottom: 0;
+}
+.container{
+   max-width: 500px;  
+   
+   
+}
+
+.div1{
+   background: green;
+   
+}
+.div2{
+   background: red;
+   
+}
+
+.menu{
+   display: flex;
+   
+}
