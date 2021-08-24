@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(132, 0, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, p{
+    margin: 10px 5px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px; 
+    color: rgb(255, 255, 255); 
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+.job-title{
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(132, 0, 255);
+}
+
+ul{
+    padding: 10px;
+    background-color:rgb(255, 255, 255) ;
+    color:rgb(132, 0, 255) ;
+}
+
+a{
+    text-decoration: none;
+}
