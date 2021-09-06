@@ -1,0 +1,27 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Roboto:wght@100;300;400;500;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');    
+}
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+.img {
+    padding: 24px 0;
+    background-image: url(https://i.pinimg.com/originals/7e/1e/42/7e1e42839f3c762129aedba34fcccdce.png);
+    height: 600px;
+    width: 100%;
+}
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+.btn {
+    padding: 10px;
+    background-color: rgb(62, 62, 180);
+    color: cornsilk;
+    border-radius: 4px;
+    font-size: 20px;
+}
