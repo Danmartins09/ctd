@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    
+}
+body{
+    height: 4000px;
+    background-color: #ebebeb;
+}
+
+header {
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*------MENU-----------*/
+
+.menu {
+    background-color: #fff159;
+    width: 100%;
+    /* height: 100px; */
+    position: fixed;    
+}
+
+.menu-left{
+    max-width: 150px;
+    
+}
+.menu-logo{
+    position: relative;
+    width: 100%;
+    right: 15px;           
+}
+
+a {
+    text-decoration: none;
+    color: #333;       
+    
+}
+
+.cep {
+    display: flex; 
+    margin-bottom: 10px;   
+}
+
+.cp{
+    display: flex;
+    flex-direction: column;
+}
+.pin {
+    font-size: 30px;
+    font-weight: 100;    
+}
+.cep-info {
+    color:rgba(51,51,51,.6);
+    font-size: 13px;
+}
+
+.cep-name {
+    color:#333;
+}
+.menu-center {
+    margin: 0 20px;
+}
+
+.bar {
+    color: #333;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    margin: 15px 0 0 0;
+    padding: 6px 6px 6px 35px;
+    font-family: inherit;
+    border-radius: 2px;
+}
+
+.menu-secoes ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    padding-inline-start: 0;
+    margin: 20px 0 0 0;    
+}
+
+.menu-secoes ul li {
+    display: inline-flex;
+    padding: 0 10px;
+    color:rgba(51,51,51,.6);
+}
+
+.menu-secoes ul li:hover {
+    color:#333 ;
+    transition: color 0.3s ease-out;
+    cursor: pointer;
+}
+
+.menu-disney {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.mr-links {
+    margin-top: 10px;
+}
+.mr-links a {
+    margin: 10px;
+}
+main {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    
+}
+
+.img-promo{
+    width: 100%;
+    height:auto ;
+    margin-bottom: 20px;
+}
+
+/*------------- PAGAMENTOS---------- */
+.pagamento {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    width: max-content;
+    margin: 0 auto;
+    border-radius: 4px;
+    position: relative;
+    
+}
+
+h3 {
+    font-weight: 400;
+}
+h4 {
+    font-weight: 300;
+    color:rgba(51,51,51,.6);
+}
+.container-pag-wi {
+    margin: 20px;    
+}
+
+.container-pag-wi::before {
+    background-color: #3483fa;
+    bottom: 4px;
+    content: " ";
+    left: 4px;
+    position: absolute;
+    top: 4px;
+    width: 4px;
+}
+.text-blue {
+    font-size: 14px;
+    color: #3483fa;
+}
+.container-pag {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.container-pag img {
+    margin-right: 10px;
+}
+
+/*----------PRODUTOS------*/
+
+.produtos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+      
+}
+.card1{
+    background-color:#ffffff ;
+    width: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px ;
+    border-radius: 4px;
+    position: relative;
+}
+
+.card1:hover {
+    box-shadow: 0 0  15px rgba(51,51,51,.6); 
+}
+
+.img-card{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%), 0 -1px 2px 0 rgb(0 0 0 / 10%);
+}
+
+/* .img-card::before{
+    content: ' ';
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    background: rgba(51,51,51,.6);
+    top: 250px;        
+} */
+
+.text-card {
+    width: 100%;
+    padding: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.frete{
+    color: #08a955;
+}
