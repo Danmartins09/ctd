@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body {
+    background: #fffffe;
+}
+
+h1 {
+    color: #6246ea;
+} 
+label{
+    color: #2b2c34;
+}
+.body-form {
+    background: #d1d1e9;    
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+    width: 200px;    
+}
+
+form h1 {
+    text-align: center;
+    margin: 20px;
+} 
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-sec {
+    display: flex;
+    flex-direction: row;
+}
+input, select, textarea {
+    border-radius: 4px;
+}
+.data div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.data .age,.gender {
+    display: flex;
+}
+.data .age input{
+    width: 100px;
+}
+.data .gender select{
+    width: 100px;
+}
+
+
+.data div label {
+    margin-bottom: 5px;
+}
+
+.data div input, select, textarea {
+    width:400px
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-form {
+    background:#6246ea ;
+    color: #fffffe;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+}

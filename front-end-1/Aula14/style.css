@@ -1,0 +1,83 @@
+ * {
+    margin: 0;
+    
+} 
+
+body {
+    background: #232946;
+}
+
+.body-form {
+    background: #b8c1ec;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 6px;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.logo img {
+    width: 100px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    background:#fffffe ;    
+    color: #232946;
+    border-radius: 6px;
+}
+
+fieldset {
+    border-radius:6px ;
+    border-color: #232946;
+    border-style: solid;
+}
+
+.type-option , .topping, .filling, .qtd {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;    
+}
+ fieldset select{
+     width: 177px;
+ }
+
+.entrega {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    justify-content: center;
+}
+.entrega label {
+    margin-right: 15px;
+}
+.entrega input {
+    margin:0 5px;
+}
+
+.observation textarea {
+    width: 252px;
+    height: 74px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.btn-form {
+    padding: 10px;
+    background: #eebbc3;
+    color: #232946;
+    border: none;
+    border-radius: 6px;
+    font-size: 24px;
+}
