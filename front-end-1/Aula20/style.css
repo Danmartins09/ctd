@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: sticky; 
+    top: 0;
+}
+
+header ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-evenly; 
+      
+}
+
+header ul li a{ 
+    text-decoration: none;
+    color: white;
+}
+   
+.img {
+    height: calc(100vh - 50px);   
+    background-image: url("https://www.guarabiracenter.com.br/wp-content/uploads/2018/04/Home-Four-Banner-Background-Image-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(53, 78, 161);
+    align-items: center;
+}
+section{
+    
+    margin: 50px;
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+section h2 {
+    margin: 20px;
+}
+
+section img {
+    height: 400px;
+    width: auto;  
+    display: flex; 
+    margin: 0 auto; 
+
+}
+
+
+
+@media (max-width:760px) {
+
+    .text {
+        flex-direction: column;
+        height: 100%;
+    }
+}

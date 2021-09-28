@@ -1,0 +1,12 @@
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+@media (max-width:500px) {
+    .box {
+        background-color: brown;
+        width: 100%;
+    }
+}
