@@ -11,7 +11,7 @@ This aplication was developed with the following technologie:
 
 To run this application, you'll need Visual Visual Studio Code installed on your computer. 
 
-Open the VS Code then search for Code Runner extension.
+Open the VS Code then search for Code Runner extension and installed it.
 
 Open curso.js file then run Code Runner extension.
 
